@@ -21,7 +21,6 @@ do -- items
 
   -- Sailors Innovation: Pinch of Salt (Interaction)
   pfDB["items"]["data-turtle"][60207] = { ["U"] = { [91950] = 100 } }
-
   
   -- Southsea Reserve: Southsea Reserve (Interaction)
   pfDB["items"]["data-turtle"][60217] = { ["U"] = { [92137] = 100 } }
@@ -124,8 +123,11 @@ do -- units
   -- Pezzik Villamar: Horde only
   pfDB["units"]["data-turtle"][70060]["fac"] = "H"
   
-  -- Nert Blastentom: Horde only
+    -- Nert Blastentom (Razor Hill): Horde only
   pfDB["units"]["data-turtle"][80121]["fac"] = "H"
+  
+  -- Grand Taskmaster Nert Blastentom (Sparkwater Port): Horde only
+  pfDB["units"]["data-turtle"][80178]["fac"] = "H"
 
   -- Quest 80261 Custom Objective
   pfDB["units"]["enUS-turtle"][80270] = "Search Mage Tower"
@@ -259,49 +261,31 @@ do -- units
   pfDB["units"]["data-turtle"][91292]["fac"] = "H"
   
   -- Watch Sergeant Arthur: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92012]["coords"] = {
-    [1] = { 1.9, 52.8, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92012]["coords"] = { [1] = { 1.9, 52.8, 8, 25 } }
   
   -- Watchman Damion: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92014]["coords"] = {
-    [1] = { 1.6, 50.8, 8, 25 },
-  }
-  
+  pfDB["units"]["data-turtle"][92014]["coords"] = { [1] = { 1.6, 50.8, 8, 25 } }
+
   -- Watch Paladin Janathos: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92017]["coords"] = {
-    [1] = { 2.4, 50.6, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92017]["coords"] = { [1] = { 2.4, 50.6, 8, 25 } }
   
   -- Sir Areyntall: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92018]["coords"] = {
-    [1] = { 1.6, 50.3, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92018]["coords"] = { [1] = { 1.6, 50.3, 8, 25 } }
   
   -- Janet Hollowworth: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92019]["coords"] = {
-    [1] = { 0.9, 49.4, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92019]["coords"] = { [1] = { 0.9, 49.4, 8, 25 } }
   
   -- Howard Gray: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92020]["coords"] = {
-    [1] = { 1.5, 50, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92020]["coords"] = { [1] = { 1.5, 50, 8, 25 } }
   
   -- Lucas: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92021]["coords"] = {
-    [1] = { 2, 52, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92021]["coords"] = { [1] = { 2, 52, 8, 25 } }
   
   -- 'Sly' Duncan: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92022]["coords"] = {
-    [1] = { 3.7, 49.7, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92022]["coords"] = { [1] = { 3.7, 49.7, 8, 25 } }
   
   -- Quartermaster Davin: Moved from Deadwind Pass -> Swamp of Sorrows
-  ppfDB["units"]["data-turtle"][92023]["coords"] = {
-    [1] = { 3.5, 50.6, 8, 25 },
-  }
+  pfDB["units"]["data-turtle"][92023]["coords"] = { [1] = { 3.5, 50.6, 8, 25 } }
   
   -- Flaz Fusemix: Horde only
   pfDB["units"]["data-turtle"][92187]["fac"] = "H"
