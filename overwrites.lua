@@ -335,15 +335,26 @@ do -- units/npcs
     ["lvl"] = "62",
   }
 
+  -- Lomac Gearstrip (Ironforge)
+   pfDB["units"]["data-turtle"][4081]["coords"] = { [1] = { 72, 51.7, 1537, 280 } }
+
+  -- Klockmort Spannerspan (Ironforge)
+   pfDB["units"]["data-turtle"][6169]["coords"] = { [1] = { 67.8, 46, 1537, 280 } }
+
   --  Duthorian Rall (Stormwind)
-  pfDB["units"]["data-turtle"][6171]["coords"] = {
-    [1] = { 50.5, 47.5, 1519, 30 },
-  }
+  pfDB["units"]["data-turtle"][6171]["coords"] = { [1] = { 50.5, 47.5, 1519, 30 } }
+
+  -- Gnoarn (Ironforge)
+   pfDB["units"]["data-turtle"][6569]["coords"] = { [1] = { 69.1, 50.4, 1537, 280 } }
+
+  -- High Tinker Mekkatorque (Ironforge)
+   pfDB["units"]["data-turtle"][7937]["coords"] = { [1] = { 68.7, 48.9, 1537, 280 } }
+  
+  -- Master Mechanic Castpipe (Ironforge)
+   pfDB["units"]["data-turtle"][7950]["coords"] = { [1] = { 69.7, 48.1, 1537, 280 } }
 
   -- Barltok Kettleburn (Dun Agrath)
-  pfDB["units"]["data-turtle"][52068]["coords"] = {
-    [1] = { 21, 71.4, 11, 120 },
-  }
+  pfDB["units"]["data-turtle"][52068]["coords"] = { [1] = { 21, 71.4, 11, 120 } }
 end
 
 do -- quests
@@ -565,6 +576,9 @@ do -- quests
 
   -- Controlling Sailors: Sailor Hylreth, Sailor Brewen, Sailor Pardol (Interaction with no item given)
   pfDB["quests"]["data-turtle"][40660]["obj"] = { ["U"] = { 61013, 61015, 61016 } }
+
+  -- A Journey for Vengeance: Grumnir Battlebeard (Interaction with no item given)
+  pfDB["quests"]["data-turtle"][40691]["obj"] = { ["U"] = { 60993 } }
 
   -- Conflicting Questions: Faldan Moonshatter (Interaction with no item given)
   pfDB["quests"]["data-turtle"][40698]["obj"] = { ["U"] = { 60471 } }
