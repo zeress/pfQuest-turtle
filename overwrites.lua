@@ -518,6 +518,22 @@ do -- quests
     },
   }
   
+  -- Book of the Ancients
+  pfDB["quests"]["data-turtle"][6027] = {
+    ["end"] = {
+      ["U"] = { 11863 },
+    },
+    ["lvl"] = 38,
+    ["min"] = 30,
+    ["obj"] = {
+      ["O"] = { 177673 },
+    },
+    ["pre"] = { 5741 },
+    ["start"] = {
+      ["U"] = { 11863 },
+    },
+  }
+  
   -- The Monogrammed Sash
   pfDB["quests"]["data-turtle"][8552] = {
     ["end"] = {
