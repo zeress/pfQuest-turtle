@@ -85,6 +85,13 @@ do -- units/npcs
     ["fac"] = "AH",
     ["lvl"] = "36",
   }
+  -- PvP NPCs
+  pfDB["units"]["data-turtle"][14733] = { }
+  pfDB["units"]["data-turtle"][14753] = { }
+  pfDB["units"]["data-turtle"][14983] = { }
+  pfDB["units"]["data-turtle"][14984] = { }
+  pfDB["units"]["data-turtle"][15127] = { }
+  pfDB["units"]["data-turtle"][15351] = { }
   -- end of personal tweaks
   -- AQ Commendation NPCs
   pfDB["units"]["data-turtle"][15761] = { }
