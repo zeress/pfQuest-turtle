@@ -461,6 +461,19 @@ do -- quests
     ["O"] = { 142185, 142186, 142187, 142188 },
   }
   
+  -- The Horn of the Beast
+  pfDB["quests"]["data-turtle"][3181] = {
+    ["end"] = {
+      ["U"] = { 3836 },
+    },
+    ["lvl"] = 48,
+    ["min"] = 40,
+    ["race"] = 589,
+    ["start"] = {
+      ["U"] = { 5833 },
+    },
+  }
+  
   -- A Little Slime Goes a Long Way
   pfDB["quests"]["data-turtle"][4512]["obj"] = {
     ["U"] = { 7086, 7092 },
