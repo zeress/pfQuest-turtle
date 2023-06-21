@@ -52,12 +52,12 @@ do -- units/npcs
   -- start of personal tweaks
   -- Fallen Hero of the Horde
   pfDB["units"]["data-turtle"][7572] = {
-      ["coords"] = {
-        [1] = { 34.3, 66.1, 8, 300 },
-  	  [2] = { 52.8, 2.8, 4, 300 },
-      },
-      ["fac"] = "AH",
-      ["lvl"] = "60",
+    ["coords"] = {
+     [1] = { 34.3, 66.1, 8, 300 },
+     [2] = { 52.8, 2.8, 4, 300 },
+    },
+    ["fac"] = "AH",
+    ["lvl"] = "60",
   }
   
   -- Murkdeep (Darkshore)
