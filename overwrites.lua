@@ -473,12 +473,7 @@ do -- quests
       ["U"] = { 5833 },
     },
   }
-  
-  -- A Little Slime Goes a Long Way
-  pfDB["quests"]["data-turtle"][4512]["obj"] = {
-    ["U"] = { 7086, 7092 },
-  }
-  
+
   -- The Northern Pylon
   pfDB["quests"]["data-turtle"][4285] = {
     ["end"] = {
@@ -540,6 +535,47 @@ do -- quests
     ["start"] = {
       ["U"] = { 9536 },
     },
+  }
+
+  -- Corrupted Felwood Plants
+  -- Corrupted Windblossom
+  pfDB["quests"]["data-turtle"][996] = { }
+  pfDB["quests"]["data-turtle"][998] = { }
+  pfDB["quests"]["data-turtle"][1514] = { }
+  pfDB["quests"]["data-turtle"][4115] = { }
+  pfDB["quests"]["data-turtle"][4221] = { }
+  pfDB["quests"]["data-turtle"][4222] = { }
+  pfDB["quests"]["data-turtle"][4343] = { }
+  pfDB["quests"]["data-turtle"][4403] = { }
+  pfDB["quests"]["data-turtle"][4466] = { }
+  pfDB["quests"]["data-turtle"][4467] = { }
+  -- Corrupted Whipper Root
+  pfDB["quests"]["data-turtle"][4117] = { }
+  pfDB["quests"]["data-turtle"][4443] = { }
+  pfDB["quests"]["data-turtle"][4444] = { }
+  pfDB["quests"]["data-turtle"][4445] = { }
+  pfDB["quests"]["data-turtle"][4446] = { }
+  pfDB["quests"]["data-turtle"][4461] = { }
+  -- Corrupted Songflower
+  pfDB["quests"]["data-turtle"][2523] = { }
+  pfDB["quests"]["data-turtle"][2878] = { }
+  pfDB["quests"]["data-turtle"][3363] = { }
+  pfDB["quests"]["data-turtle"][4113] = { }
+  pfDB["quests"]["data-turtle"][4114] = { }
+  pfDB["quests"]["data-turtle"][4116] = { }
+  pfDB["quests"]["data-turtle"][4118] = { }
+  pfDB["quests"]["data-turtle"][4401] = { }
+  pfDB["quests"]["data-turtle"][4464] = { }
+  pfDB["quests"]["data-turtle"][4465] = { }
+  -- Corrupted Night Dragon
+  pfDB["quests"]["data-turtle"][4119] = { }
+  pfDB["quests"]["data-turtle"][4447] = { }
+  pfDB["quests"]["data-turtle"][4448] = { }
+  pfDB["quests"]["data-turtle"][4462] = { }
+  
+  -- A Little Slime Goes a Long Way
+  pfDB["quests"]["data-turtle"][4512]["obj"] = {
+    ["U"] = { 7086, 7092 },
   }
   
   -- Book of the Ancients
