@@ -15,7 +15,14 @@ do -- items
   -- start of personal tweaks
   -- A Little Slime Goes a Long Way (Felwood): Filled Cursed Ooze Jar, Filled Tainted Ooze Jar
   pfDB["items"]["data-turtle"][11947] = { ["U"] = { [7086] = 100 } }
-  pfDB["items"]["data-turtle"][11949] = { ["U"] = { [7092] = 100 } }  
+  pfDB["items"]["data-turtle"][11949] = { ["U"] = { [7092] = 100 } }
+  
+  -- A Little Slime Goes a Long Way (Un'Goro): Filled Pure Sample Jar
+  pfDB["items"]["data-turtle"][11954] = { 
+    ["U"] = { [6556] = 100 },
+	["U"] = { [6557] = 100 },
+	["U"] = { [6559] = 100 },
+  }
   
   -- end of personal tweaks
   -- Once Upon a Sheep: Lost Farm Sheep (Interaction)
