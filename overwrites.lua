@@ -442,6 +442,11 @@ do -- quests
     ["O"] = { 2656 },
   }
   
+  -- Flute of Xavaric
+  pfDB["quests"]["data-turtle"][939]["start"] = {
+    ["U"] = { 10648 },
+  }
+  
   -- Raene's Cleansing
   pfDB["quests"]["data-turtle"][1027]["obj"] = {
     ["I"] = { 5519 },
