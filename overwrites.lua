@@ -12,6 +12,12 @@ do -- area trigger
 end
 
 do -- items
+  -- start of personal tweaks
+  -- A Little Slime Goes a Long Way (Felwood): Filled Cursed Ooze Jar, Filled Tainted Ooze Jar
+  pfDB["items"]["data-turtle"][11947] = { ["U"] = { [7086] = 100 } }
+  pfDB["items"]["data-turtle"][11949] = { ["U"] = { [7092] = 100 } }  
+  
+  -- end of personal tweaks
   -- Once Upon a Sheep: Lost Farm Sheep (Interaction)
   pfDB["items"]["data-turtle"][51220] = { ["U"] = { [50610] = 100 } }
   
@@ -572,11 +578,6 @@ do -- quests
   pfDB["quests"]["data-turtle"][4447] = { }
   pfDB["quests"]["data-turtle"][4448] = { }
   pfDB["quests"]["data-turtle"][4462] = { }
-  
-  -- A Little Slime Goes a Long Way
-  pfDB["quests"]["data-turtle"][4512]["obj"] = {
-    ["U"] = { 7086, 7092 },
-  }
   
   -- Book of the Ancients
   pfDB["quests"]["data-turtle"][6027] = {
