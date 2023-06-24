@@ -75,6 +75,9 @@ do -- units/npcs
     ["lvl"] = "60",
   }
   
+  -- Arei (Felwood)
+  pfDB["units"]["data-turtle"][9598]["coords"] = { [1] = { 49.6, 29.6, 361, 300 } }
+  
   -- Murkdeep (Darkshore)
   pfDB["units"]["data-turtle"][10323] = {
     ["coords"] = {
