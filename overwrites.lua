@@ -104,12 +104,20 @@ do -- units/npcs
     ["lvl"] = "36",
   }
   -- PvP NPCs
+  -- Alliance
   pfDB["units"]["data-turtle"][14733] = { }
   pfDB["units"]["data-turtle"][14753] = { }
   pfDB["units"]["data-turtle"][14983] = { }
   pfDB["units"]["data-turtle"][14984] = { }
   pfDB["units"]["data-turtle"][15127] = { }
   pfDB["units"]["data-turtle"][15351] = { }
+  -- Horde
+  pfDB["units"]["data-turtle"][13776] = { }
+  pfDB["units"]["data-turtle"][13817] = { }
+  pfDB["units"]["data-turtle"][13840] = { }
+  pfDB["units"]["data-turtle"][14781] = { }
+  pfDB["units"]["data-turtle"][15022] = { }
+  pfDB["units"]["data-turtle"][15350] = { }
   -- end of personal tweaks
   -- AQ Commendation NPCs
   pfDB["units"]["data-turtle"][15761] = { }
