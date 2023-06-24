@@ -19,9 +19,11 @@ do -- items
   
   -- A Little Slime Goes a Long Way (Un'Goro): Filled Pure Sample Jar
   pfDB["items"]["data-turtle"][11954] = { 
-    ["U"] = { [6556] = 100 },
-	["U"] = { [6557] = 100 },
-	["U"] = { [6559] = 100 },
+    ["U"] = { 
+      [6556] = 100,
+      [6557] = 100,
+      [6559] = 100,
+    },
   }
   
   -- end of personal tweaks
